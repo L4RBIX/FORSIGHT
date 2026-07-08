@@ -1,0 +1,23 @@
+[
+  {
+    "id": "push_blue_box_right",
+    "label": "Push blue box right",
+    "input": "push the blue box to the right",
+    "expected_decision": "BLOCK",
+    "expected_reason": "Mug likely falls from table"
+  },
+  {
+    "id": "push_box_left",
+    "label": "Push blue box left",
+    "input": "push the blue box to the left",
+    "expected_decision": "ALLOW",
+    "expected_reason": "No protected object is hit"
+  },
+  {
+    "id": "move_mug_forward",
+    "label": "Move mug forward",
+    "input": "move the mug forward",
+    "expected_decision": "CAUTION",
+    "expected_reason": "Object is close to table edge"
+  }
+]

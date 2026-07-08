@@ -1,0 +1,38 @@
+{
+  "mode": "mock",
+  "scene": {
+    "objects": [
+      {
+        "id": "box_2",
+        "label": "blue box",
+        "class": "box",
+        "position": [0.32, 0.11, 0.04],
+        "size": [0.16, 0.12, 0.08],
+        "confidence": 0.91
+      },
+      {
+        "id": "mug_1",
+        "label": "white mug",
+        "class": "mug",
+        "position": [0.56, 0.12, 0.05],
+        "size": [0.08, 0.08, 0.1],
+        "confidence": 0.88
+      }
+    ]
+  },
+  "risk": {
+    "decision": "BLOCK",
+    "risk_percent": 87,
+    "reason": "Mug likely falls from table",
+    "evidence": {
+      "simulations": 30,
+      "failures": 26
+    }
+  },
+  "uncertainty": {
+    "sensor_position_mm": 4.0,
+    "sensor_rotation_deg": 1.8,
+    "mass": "sampled from range",
+    "friction": "sampled from range"
+  }
+}
