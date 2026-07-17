@@ -322,9 +322,9 @@ What is next:
 
 Team Foresight
 
-- Name 1 - perception / calibration
-- Name 2 - simulation / safety oracle
-- Name 3 - dashboard / agent / pitch
+- Kydyrbek Bekarys - perception / calibration
+- Mukanov Arsen - simulation / safety oracle
+- Kasymov Ali - dashboard / agent / pitch
 
 ## Final message
 
